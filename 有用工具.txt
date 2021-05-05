@@ -1,0 +1,16 @@
+字体图标库：
+icomoon
+iconfont
+zeal
+
+网站图标：
+http://www.bitbug.net/
+
+免费的远程服务器：
+http://free.3v.do/
+
+精灵图往上走是负值，往左走也是负值
+
+::after让图片垂直居中方法：
+display: inline-block;
+line-height + vertical-align:middle;
