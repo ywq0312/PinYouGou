@@ -1,0 +1,44 @@
+/* 列表页专有的css */
+.nav{
+    /* 溢出隐藏的目的是因为前面导航栏右边部分为了让文字和左侧导航栏底部对齐，
+    因此设置了line-height是大于高度的，又因为li浮动，浮动的元素是不会压住文字的
+    所以sk-hd里面的文字会围绕上面的li里的a，从而导致文字会在右边 */
+    overflow: hidden;
+}
+.sk{
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+.sk-list ul li{
+    float: left;
+}
+.sk-list ul li a{
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.sk-con ul li{
+    float: left;
+}
+.sk-con ul li a{
+    display: block;
+    /* 当行高大于高度，文字会偏下 */
+    line-height: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.sk-con ul li:last-child a::after{
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.sk-bd ul li{
+    width: 290px;
+    height: 460px;
+}
+.sk-bd ul li:

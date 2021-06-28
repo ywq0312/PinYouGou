@@ -1,0 +1,19 @@
+/* 列表页专有的css */
+.sk{
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+.sk-list ul li{
+    float: left;
+}
+.sk-list ul li a{
+    display: block;
+    line-height: 47px;
+    padding: 30px;
+}
+.sk-con{
+    float: left;
+}

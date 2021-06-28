@@ -14,3 +14,6 @@ http://free.3v.do/
 ::after让图片垂直居中方法：
 display: inline-block;
 line-height + vertical-align:middle;
+
+当鼠标移入li时，盒子会因为添加了边框而向下抖动，
+为了避免这个问题，可以给li原本就加一个透明的边框 
