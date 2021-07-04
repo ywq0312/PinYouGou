@@ -1,0 +1,17 @@
+/* 注册页面样式 */
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+header .logo{
+    /* 用margin-top会有外边距塌陷问题（因为外面一个大盒子，里面又放了一个小盒子），可以用padding */
+    padding-top: 18px;
+}
+.registerarea{
+    height: 522px;
+    border: 1px ;
+}

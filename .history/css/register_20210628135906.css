@@ -1,0 +1,74 @@
+/* 注册页面样式 */
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+header .logo{
+    /* 用margin-top会有外边距塌陷问题（因为外面一个大盒子，里面又放了一个小盒子），可以用padding */
+    padding-top: 18px;
+}
+.registerarea{
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.registerarea h3{
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ededed;
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.login{
+    float: right;
+    font-size: 14px;
+}
+.login a {
+    color: #c81523;
+}
+.reg-form{
+    width: 600px;
+    margin: 50px auto 0;
+}
+.reg-form ul li label{
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.reg-form ul li input{
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+.reg-form ul li{
+    margin-bottom: 20px;
+}
+.reg-form ul li i{
+    margin-left: 5px;
+}
+.error{
+    color: #c81523;
+}
+.error-icon,
+.success-icon{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+    margin-top: -2px;
+    margin-right: 5px;
+}
+.success{
+    color: green;
+}
+.success-icon{
+    background: url(../images/success.png) no-repeat;
+}
+.safe 
